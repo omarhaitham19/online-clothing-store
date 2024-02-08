@@ -1,6 +1,7 @@
 <?php
 include "header.php";
 include "navbar.php";
+include "tse.php";
 ?>
 
               <div class="card-body px-5 py-5" style="background-color:darkgray;">
