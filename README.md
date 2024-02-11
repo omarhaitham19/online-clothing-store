@@ -33,6 +33,5 @@ To run the Online Clothing Store locally, follow these steps:
    - Import the SQL schema file (`hagahelwa.sql`) into your MySQL database.
    - Update the database connection details in `connection.php` with your MySQL credentials.
   
-3. Configure the database connection in `connection.php`.
-4. Run the application using a PHP server.
+3. Run the application using a PHP server.
 
