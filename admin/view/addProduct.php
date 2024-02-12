@@ -63,7 +63,7 @@ include "../../connection.php";
 
           if (empty($quantity)) {
             $errors['quantity'] = "quantity is required";
-           } elseif (!ctype_digit($price)) {
+           } elseif (!ctype_digit($quantity)) {
              $errors['quantity'] = "Only Numbers are allowed";
            } elseif($quantity < 0){
             $errors['quantity'] = "Quantity must be greater than 0";
